@@ -1,42 +1,46 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.0)
-      public_suffix (~> 2.0, >= 2.0.2)
-    capybara (2.11.0)
+    addressable (2.8.5)
+      public_suffix (>= 2.0.2, < 6.0)
+    capybara (3.39.2)
       addressable
-      mime-types (>= 1.16)
-      nokogiri (>= 1.3.3)
-      rack (>= 1.0.0)
-      rack-test (>= 0.5.4)
-      xpath (~> 2.0)
+      matrix
+      mini_mime (>= 0.1.3)
+      nokogiri (~> 1.8)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      regexp_parser (>= 1.5, < 3.0)
+      xpath (~> 3.2)
     cliver (0.3.2)
-    mime-types (3.1)
-      mime-types-data (~> 3.2015)
-    mime-types-data (3.2016.0521)
-    mini_portile2 (2.1.0)
-    nokogiri (1.6.8.1)
-      mini_portile2 (~> 2.1.0)
-    poltergeist (1.12.0)
-      capybara (~> 2.1)
+    matrix (0.4.2)
+    mini_mime (1.1.5)
+    mini_portile2 (2.8.5)
+    nokogiri (1.15.4)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
+    poltergeist (1.18.1)
+      capybara (>= 2.1, < 4)
       cliver (~> 0.3.1)
       websocket-driver (>= 0.2.0)
-    public_suffix (2.0.4)
-    rack (2.0.1)
-    rack-test (0.6.3)
-      rack (>= 1.0)
-    websocket-driver (0.6.4)
+    public_suffix (5.0.3)
+    racc (1.7.3)
+    rack (3.0.8)
+    rack-test (2.1.0)
+      rack (>= 1.3)
+    regexp_parser (2.8.2)
+    websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
-    websocket-extensions (0.1.2)
-    xpath (2.0.0)
-      nokogiri (~> 1.3)
+    websocket-extensions (0.1.5)
+    xpath (3.2.0)
+      nokogiri (~> 1.8)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  capybara
-  poltergeist
+  capybara (>= 2.12.0)
+  poltergeist (>= 1.13.0)
 
 BUNDLED WITH
-   1.12.5
+   1.17.3
