@@ -9,7 +9,7 @@
     <scala-library.version>${scala.binary.version}.8</scala-library.version>
     <scala.binary.version>2.11</scala.binary.version>
     <java.version>1.8</java.version>
-    <aws.java.sdk.version>1.11.78</aws.java.sdk.version>
+    <aws.java.sdk.version>1.12.624</aws.java.sdk.version>
     <spring.version>4.3.5.RELEASE</spring.version>
     <undertow.version>1.4.8.Final</undertow.version>
     <slf4j.version>1.7.22</slf4j.version>
@@ -200,7 +200,7 @@
         <version>1.4.1</version>
         <configuration>
           <rules>
-            <dependencyConvergence></dependencyConvergence>
+            <dependencyConvergence/>
           </rules>
         </configuration>
         <executions>
